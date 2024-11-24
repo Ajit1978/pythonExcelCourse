@@ -11,5 +11,5 @@ df = pd.DataFrame(
         "Sex": ["male", "male", "female"],
     }
 )
-
+df = df.to_excel("inventory.py",sheet_name="Sheet2")
 print(df)
